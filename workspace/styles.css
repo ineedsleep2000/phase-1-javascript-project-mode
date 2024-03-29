@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  background-image: url("https://i.imgflip.com/4lb05h.png?a475056");
+  background-size: cover; /* Adjusts the background image to cover the entire element */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the background image from repeating */
+}
+
+.container {
+  text-align: center;
+}
+
+button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.flip {
+  transform: rotateY(
+    180deg
+  ); /* Rotate the button around the Y-axis by 180 degrees */
+}
+
+button:hover {
+  background-color: #c02929;
+}
+
+#hoverDiv {
+  background-color: #000000;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#hoverDiv:hover {
+  background-color: #e0e0e0;
+}
+
+#image1 {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
